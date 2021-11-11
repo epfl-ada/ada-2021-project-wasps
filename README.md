@@ -1,12 +1,25 @@
 # Detect profile of the speaker based on deep learning
 ## Abstract
+While performing analysis of Quotebank data we found out that around 34% of quotations don't have assigned speakers to it (1.8 million out of 5.2 million in file quotes-2020.json). Our goal is to answer the following question: if we cannot determine the exact author of a quotation, what other information can we get from it?
 
+We aim at finding more information about already known authors from additional datasets such as Wikipedia and use them to train Deep Learning model to predict these new features for unknown classes.
+
+Afterwards we will  analyse behaviour by groups, which could unravel many interesting patterns.
 ## Research Questions
+* Can we predict the topic of quotation (based on the topic in which it appears in the newspaper)?
+* Is it possible to determin basic information, such as sex, age, occupation, place of birth, children and political party, from quotation?
+* What are the most popular topics in each subgroup?
+* What is the sentiment of quotation in each group?
+* Are there any patterns between groups and quotations?
 
 ## Proposed additional datasets
-
+We will use Wikipedia datasets to enrich 
 ## Methods
+For data preprocessing we use TODO
 
+We use distilBERT to predict new features based on quotations. 
+
+We will use TODO to final analyses.
 ## Proposed timeline
 
 ## Organization within the team
