@@ -13,14 +13,29 @@ Afterwards we will  analyse behaviour by groups, which could unravel many intere
 * Are there any patterns between groups and quotations?
 
 ## Proposed additional datasets
-We will use Wikipedia datasets to enrich 
+We will use Wikipedia datasets to enrich our data. Especially we will base on additional metadata collected by ADA team which consist of additional labels as:
+* date of birth
+* nationality
+* gender
+* ethnic group
+* party
+* academic degree
+* religion
+
 ## Methods
 For data preprocessing we use TODO
 
-We use distilBERT to predict new features based on quotations. 
+We use distilBERT from Hugging Face to predict new features based on quotations. 
 
 We will use TODO to final analyses.
 ## Proposed timeline
 
+
 ## Organization within the team
+Folowing people have this assigments:
+Sofia - Apply DistilBERT to quotations
+Katya - scrap url to get neme of newspaper section, analysis of the dataset
+Wei - results analysis, finding dependencies in the data (in the embedding space)
+Pawel - enrich data from wikipedia
+
 
