@@ -1,5 +1,13 @@
-# ada-2021-project-wasps
-ada-2021-project-wasps created by GitHub Classroom
+# Detect profile of the speaker based on deep learning
+## Abstract
 
+## Research Questions
 
-That text was written by Kate for a testing.
+## Proposed additional datasets
+
+## Methods
+
+## Proposed timeline
+
+## Organization within the team
+
