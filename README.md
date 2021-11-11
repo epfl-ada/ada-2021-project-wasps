@@ -33,9 +33,9 @@ We will use TODO to final analyses.
 
 ## Organization within the team
 Folowing people have this assigments:
-Sofia - Apply DistilBERT to quotations
-Katya - scrap url to get neme of newspaper section, analysis of the dataset
-Wei - results analysis, finding dependencies in the data (in the embedding space)
-Pawel - enrich data from wikipedia
+* Sofia - Apply DistilBERT to quotations
+* Katya - scrap url to get neme of newspaper section, analysis of the dataset
+* Wei - results analysis, finding dependencies in the data (in the embedding space)
+* Pawel - enrich data from wikipedia
 
 
