@@ -21,6 +21,8 @@ We will use Wikipedia datasets to enrich our data. Especially we will base on ad
 * party
 * academic degree
 * religion
+### Topics analysing
+
 
 ## Methods
 For data preprocessing we use TODO
