@@ -12,6 +12,11 @@ In that work we would like to extract additional information about known authors
 * Are there any patterns between groups and quotations?
 
 ## Proposed additional datasets
+### Topics analysing
+During our analysis we found that the proportions of 10 the most fasmous topics in New Your Times is :
+![Screenshot](figures/topics_proportions.png)
+
+### Wikipedia parsing
 We will use Wikipedia datasets to enrich our data. Especially we will base on additional metadata collected by ADA team which consist of additional labels as:
 * date of birth
 * nationality
@@ -20,9 +25,8 @@ We will use Wikipedia datasets to enrich our data. Especially we will base on ad
 * party
 * academic degree
 * religion
-### Topics analysing
-During our analysis we found that the proportions of 10 the most fasmous topics in New Your Times is :
-![Screenshot](figures/topics_proportions.png)
+
+That part of the work in progress.
 
 ## Methods
 For data preprocessing we use TODO
