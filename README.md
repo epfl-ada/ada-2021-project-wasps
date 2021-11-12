@@ -5,10 +5,9 @@ While performing analysis of Quotebank data we found out that around 34% of quot
 In that work we would like to extract additional information about known authors parsing information from Wikipedia and use it to describe unknown authors thereby reducing their obscurity. Due to the fact that the work on data parsing is still in progress, we decided to build a pipeline for predictions of another magnitude, namely the topic of the quote. We chose this additional task because it is simpler for the first stage and it can be easily adapted for our main purposes.
 
 ## Research Questions
-* Can we predict the topic of quotation (based on the topic in which it appears in the newspaper)?
+* Can we predict the topic of quotation (based on topic parsed from most popular newspaper in dataset: NYT)?
 * Is it possible to determin basic information, such as sex, age, occupation, place of birth, children and political party, from quotation?
 * What are the most popular topics in each subgroup?
-* What is the sentiment of quotation in each group?
 * Are there any patterns between groups and quotations?
 
 ## Proposed additional datasets
