@@ -41,7 +41,7 @@ To train our dataset, we loaded a pre-trained model from DistilBertModel followi
 We splited our dataset into train (80%) and test (20%) and used the test dataset with labels to check the accuracy and F1 scores of the classifier. 
 
 ## Analysis
-The details of the outcomes and their visulization can be found at ```Notebooks\Evaluation.inpyb```.
+The details of the outcomes and their visulization can be found at```outcome``` and ```Notebooks\Evaluation.inpyb```.
 Due to the time limitation, we first train the datasets in 2 classes, 5 classes and 10 classes with 40 epochs. And the outcome shows that accuracy and F1 scores raise slightly, especially for the training in the fewer classes. And we also trained the 1-10 classes datasets for 1 and 5 epochs. We found that both the accuracy rises when decreasing the classes. From above we can conclude that the training process does not improve the accuracy and F1 scores efficiently. 
 And there can be some possible causes, one of which can be that the dataset we used was imbalanced. The most popoular topic, politics, has much more samples then others. Also we need improve the structure of our training network and do more experiments in the future.
 
