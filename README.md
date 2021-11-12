@@ -32,7 +32,10 @@ We use distilBERT from Hugging Face to predict new features based on quotations.
 
 We will use TODO to final analyses.
 ## Proposed timeline
-
+* 26.11 - DistilBERT finetuned to predict categories
+* 26.11 - All additional labels will be added to base dataset
+* 03.12 - Finetune DestilBert to new labels
+* 17.12 - Create github page with all analysis of group patterns 
 
 ## Organization within the team
 Folowing people have this assigments:
