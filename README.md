@@ -4,6 +4,9 @@ While performing analysis of Quotebank data we found out that around 34% of quot
 
 We aim at finding more information about already known authors from additional datasets such as Wikipedia and use them to train Deep Learning model to predict these new features for unknown classes.
 
+Another sub-task is to categorise quotations into categories extracted from newspaper urls. We choose the few most popular newspaper sections (NYT) and assign other quotations to them with DistillBERT.
+
+
 Afterwards we will  analyse behaviour by groups, which could unravel many interesting patterns.
 ## Research Questions
 * Can we predict the topic of quotation (based on the topic in which it appears in the newspaper)?
