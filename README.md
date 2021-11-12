@@ -12,7 +12,9 @@ In that work we would like to extract additional information about known authors
 
 ## Proposed additional datasets
 ### Topics analysing
-During our analysis we found that the proportions of 10 the most fasmous topics in New Your Times is :
+During our analysis we found that most poplular source is New York Times.The shape of NY is 84%. 
+In the course of our work, we selected quotes from NY and divided them into topics.
+The proportions of 10 the most fasmous topics in New Your Times is :
 ![Screenshot](figures/topics_proportions.png)
 
 ### Wikipedia parsing
@@ -38,8 +40,7 @@ We will use TODO to final analyses.
 * 26.11 - DistilBERT finetuned to predict categories
 * 26.11 - All additional labels will be added to base dataset
 * 03.12 - Finetune DestilBert to new labels
-* 03.12 - Start writing the report
-* 17.12 - Finish report abd create github page with all analysis of group patterns 
+* 17.12 - Create github page with all analysis of group patterns 
 
 ## Organization within the team
 Folowing people have this assigments:
