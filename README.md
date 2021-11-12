@@ -22,7 +22,7 @@ We will use Wikipedia datasets to enrich our data. Especially we will base on ad
 * academic degree
 * religion
 ### Topics analysing
-During our analysis we found that the proportions of 10 the most fasmous topics is :
+During our analysis we found that the proportions of 10 the most fasmous topics in New Your Times is :
 ![Screenshot](figures/topics_proportions.png)
 
 ## Methods
