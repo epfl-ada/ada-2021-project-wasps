@@ -12,9 +12,7 @@ In that work we would like to extract additional information about known authors
 
 ## Proposed additional datasets
 ### Topics analysing
-During our analysis we found that most poplular source is New York Times.The shape of NY is 84%. 
-In the course of our work, we selected quotes from NY and divided them into topics.
-The proportions of 10 the most fasmous topics in New Your Times is :
+During our analysis we found that the proportions of 10 the most fasmous topics in New Your Times is :
 ![Screenshot](figures/topics_proportions.png)
 
 ### Wikipedia parsing
@@ -30,10 +28,15 @@ We will use Wikipedia datasets to enrich our data. Especially we will base on ad
 That part of the work in progress.
 
 ## Methods
-For data preprocessing we use TODO
-### Data Preprocessing
-For preprocessing, we exctracted the data of the most popular topics classes (top 1 to top 10 in our experiment) with labels as the dataset for training and test. The datasets are stored on google drive and we load them by urls, the structure of sample ```['qoutation', 'label', 'label_num']```
-We use distilBERT from Hugging Face to predict new features based on quotations. 
+### Data Preprocess
+For preprocessing, we exctracted the data of the most popular topics classes (top 1 to top 10 in our experiment) with labels as the dataset for training and test. The datasets are stored on google drive and we load them by urls, the structure of sample: ```['qoutation', 'label', 'label_num']```
+To build the Data Loader, first we make sure all the texts are in 'str' format. Then we load the tokenizer from BERT to encode our quotations with ids, masks and labels, which guarantees that all the quotations have same length (we set as 64), and words are all transfered into numbers. And then we shffled our dataset.
+
+### Training Process
+To train our dataset, we loaded a pre-trained model from DistilBertModel following with one full connected layers, one relu layer, one dropout layer and one full connected layer again, fitting it with an entropy-cross loss to build linear classifier. In the training process, we tried datasets with different classes, and training epochs, in order to verify the functionality of the models.
+
+### Evaluation
+We splited our dataset into train (80%) and test (20%) and used the test dataset with labels to check the accuracy and F1 scores of the classifier. 
 
 We will use TODO to final analyses.
 ## Proposed timeline
