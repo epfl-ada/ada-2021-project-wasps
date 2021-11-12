@@ -28,12 +28,14 @@ We will use Wikipedia datasets to enrich our data. Especially we will base on ad
 That part of the work in progress.
 
 ## Methods
+These are the methods we currently deployed:
+
 ### Data Preprocess
 For preprocessing, we exctracted the data of the most popular topics classes (top 1 to top 10 in our experiment) with labels as the dataset for training and test. The datasets are stored on google drive and we load them by urls, the structure of sample: ```['qoutation', 'label', 'label_num']```
 To build the Data Loader, first we make sure all the texts are in 'str' format. Then we load the tokenizer from BERT to encode our quotations with ids, masks and labels, which guarantees that all the quotations have same length (we set as 64), and words are all transfered into numbers. And then we shffled our dataset.
 
 ### Training Process
-To train our dataset, we loaded a pre-trained model from DistilBertModel following with one full connected layers, one relu layer, one dropout layer and one full connected layer again, fitting it with an entropy-cross loss to build linear classifier. In the training process, we tried datasets with different classes, and training epochs, in order to verify the functionality of the models.
+To train our dataset, we loaded a pre-trained model from DistilBertModel following with one full connected layers, one relu layer, one dropout layer and again one full connected layer, fitting it with entropy-cross loss to build a linear classifier. In the training process, we tried datasets with different classes numbers, and training epochs, in order to verify the functionality of the models.
 
 ### Evaluation
 We splited our dataset into train (80%) and test (20%) and used the test dataset with labels to check the accuracy and F1 scores of the classifier. 
@@ -41,7 +43,8 @@ We splited our dataset into train (80%) and test (20%) and used the test dataset
 ## Analysis
 The details of the outcomes and their visulization can be found at ```Notebooks\Evaluation.inpyb```.
 Due to the time limitation, we first train the datasets in 2 classes, 5 classes and 10 classes with 40 epochs. And the outcome shows that accuracy and F1 scores raise slightly, especially for the training in the fewer classes. And we also trained the 1-10 classes datasets for 1 and 5 epochs. We found that both the accuracy rises when decreasing the classes. From above we can conclude that the training process does not improve the accuracy and F1 scores efficiently. 
-And there can be some possible causes, one of which can be that the dataset we used was imbalanced. The most popoular topic, politics, has much more samples then others. Also we need improve the structure of our training network and do more experiments in future.
+And there can be some possible causes, one of which can be that the dataset we used was imbalanced. The most popoular topic, politics, has much more samples then others. Also we need improve the structure of our training network and do more experiments in the future.
+
 
 ## Proposed timeline
 * 26.11 - DistilBERT finetuned to predict categories
