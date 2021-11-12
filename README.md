@@ -2,12 +2,8 @@
 ## Abstract
 While performing analysis of Quotebank data we found out that around 34% of quotations don't have assigned speakers to it (1.8 million out of 5.2 million in file quotes-2020.json). Our goal is to answer the following question: if we cannot determine the exact author of a quotation, what other information can we get from it?
 
-We aim at finding more information about already known authors from additional datasets such as Wikipedia and use them to train Deep Learning model to predict these new features for unknown classes.
+In that work we would like to extract additional information about known authors parsing information from Wikipedia and use it to describe unknown authors thereby reducing their obscurity. Due to the fact that the work on data parsing is still in progress, we decided to build a pipeline for predictions of another magnitude, namely the topic of the quote. We chose this additional task because it is simpler for the first stage and it can be easily adapted for our main purposes.
 
-Another sub-task is to categorise quotations into categories extracted from newspaper urls. We choose the few most popular newspaper sections (NYT) and assign other quotations to them with DistillBERT.
-
-
-Afterwards we will  analyse behaviour by groups, which could unravel many interesting patterns.
 ## Research Questions
 * Can we predict the topic of quotation (based on the topic in which it appears in the newspaper)?
 * Is it possible to determin basic information, such as sex, age, occupation, place of birth, children and political party, from quotation?
