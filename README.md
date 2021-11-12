@@ -30,7 +30,8 @@ During our analysis we found that the proportions of 10 the most fasmous topics 
 
 ## Methods
 For data preprocessing we use TODO
-
+### Data Preprocessing
+For preprocessing, we exctracted the data of the most popular topics classes (top 1 to top 10 in our experiment) with labels as the dataset for training and test. The datasets are stored on google drive and we load them by urls, the structure of sample ```['qoutation', 'label', 'label_num']```
 We use distilBERT from Hugging Face to predict new features based on quotations. 
 
 We will use TODO to final analyses.
