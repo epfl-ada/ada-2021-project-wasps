@@ -38,7 +38,10 @@ To train our dataset, we loaded a pre-trained model from DistilBertModel followi
 ### Evaluation
 We splited our dataset into train (80%) and test (20%) and used the test dataset with labels to check the accuracy and F1 scores of the classifier. 
 
-We will use TODO to final analyses.
+## Analysis
+The details of the outcomes and their visulization can be found at ```Notebooks\Evaluation.inpyb```.
+Due to the time limitation, we first train the datasets in 2 classes, 5 classes and 10 classes with 40 epochs. And the outcome shows that accuracy and F1 scores raise slightly, especially for the training of fewer classes. And we also trained the 1-10 classes datasets for 5 epochs. We found that the accuracy rises when decreasing the classes.
+
 ## Proposed timeline
 * 26.11 - DistilBERT finetuned to predict categories
 * 26.11 - All additional labels will be added to base dataset
