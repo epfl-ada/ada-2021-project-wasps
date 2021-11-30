@@ -1,4 +1,12 @@
 # Detect profile of the speaker based on deep learning
+## TODO
+- dataloader to run big data - Pawel
+- refactor code - Sofia
+- change data encoding 
+- fight inbalance in classed - Wei
+- run it on the cluser -Wei
+- analize already parsed data - Katya
+
 ## Abstract
 While performing analysis of Quotebank data we found out that around 34% of quotations don't have assigned speakers to it (1.8 million out of 5.2 million in file quotes-2020.json). Our goal is to answer the following question: if we cannot determine the exact author of a quotation, what other information can we get from it?
 
