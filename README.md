@@ -5,6 +5,7 @@
 - give it to Katya to analyese
 - train it ughhhh ~Sofia
 
+## Larger TODO
 - dataloader to run big data - Pawel
 - refactor code - Sofia
 - change data encoding 
