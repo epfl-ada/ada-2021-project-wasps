@@ -1,5 +1,10 @@
 # Detect profile of the speaker based on deep learning
 ## TODO
+- split null guys not null guys
+- then split into [ID, quote, feature] train without null, test nulls
+- give it to Katya to analyese
+- train it ughhhh ~Sofia
+
 - dataloader to run big data - Pawel
 - refactor code - Sofia
 - change data encoding 
