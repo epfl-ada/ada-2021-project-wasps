@@ -15,13 +15,13 @@
 
 ## Next TODO
 - [ ] get column names and destributions of 10 most popular classes in each feature - Katya
-- [ ] create proper datasets with other classes
-- [ ] optional preprocessing to reduce size
-- [ ] feed datasets with features name into BERT
+- [ ] create proper datasets with other classes -Pawel
+- [ ] optional preprocessing to reduce size -Pawel
+- [ ] feed datasets with features name into BERT -Sofia
 - [ ] ughhhhhhhh train it and return probabilites ~Sofia
-- [ ] Collect results
+- [ ] Collect results -Sofia
 - [ ] analize distribution of predicted classes
-- [ ] create webside
+- [ ] create webside - Wei
 
 ## Abstract
 While performing analysis of Quotebank data we found out that around 34% of quotations don't have assigned speakers to it (1.8 million out of 5.2 million in file quotes-2020.json). Our goal is to answer the following question: if we cannot determine the exact author of a quotation, what other information can we get from it?
