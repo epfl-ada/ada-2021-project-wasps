@@ -19,14 +19,14 @@
 - [ ] optional preprocessing to reduce size -Pawel
 - preprocess data
   - date_of_birth
-    - [ ] plot distribution
-    - [ ] take 8 buckets in the middle one lower one upper
+    - [ ] plot distribution - Katya
+    - [ ] take, save 8 buckets in the middle one lower one upper - Katya
   - nationality
-    - [ ] maybe by region (USA, middle east etc)?
+    - [ ] maybe group by region (USA, middle east etc)? - Katya
   - ethnic_group, occupation, religion
-    - [ ] take most popular see if there is sth for mixed ethnic_group or atheist etc (so if we should have some other bucket for others relevant)
+    - [ ] take most popular see if there is sth for mixed ethnic_group or atheist etc (so if we should have some other bucket for others relevant) - Katya
   - candidacy, academic_degree, party
-    - [ ] ther should be sth for we don't know and didn't happend
+    - [ ] if there should be sth for we don't know and didn't happend? - Katya
 - [ ] feed datasets with features name into BERT -Sofia
 - [ ] ughhhhhhhh train it and return probabilites ~Sofia
 - [ ] Collect results -Sofia
