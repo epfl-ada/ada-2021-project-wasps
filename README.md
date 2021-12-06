@@ -1,11 +1,37 @@
 # Detect profile of the speaker based on deep learning
 ## TODO
-- dataloader to run big data - Pawel
-- refactor code - Sofia
-- change data encoding 
-- fight inbalance in classed - Wei
-- run it on the cluser -Wei
-- analize already parsed data - Katya
+- [x] split null guys not null guys
+- [x] then split into [ID, quote, feature] train without null, test nulls
+- [ ] give it to Katya to analyese
+- [ ] train it ughhhh ~Sofia
+
+## Larger TODO
+- [x] dataloader to run big data - Pawel
+- [ ] refactor code - Sofia
+- [x] change data encoding 
+- [x] fight inbalance in classed - ~~Wei~~ Sofia
+- [ ] run it on the cluser -Wei
+- [ ] analize already parsed data - Katya
+
+## Next TODO
+- [ ] get column names and destributions of 10 most popular classes in each feature - Katya
+- [ ] create proper datasets with other classes -Pawel
+- [ ] optional preprocessing to reduce size -Pawel
+- preprocess data
+  - date_of_birth
+    - [ ] plot distribution - Katya
+    - [ ] take, save 8 buckets in the middle one lower one upper - Katya
+  - nationality
+    - [ ] maybe group by region (USA, middle east etc)? - Katya
+  - ethnic_group, occupation, religion
+    - [ ] take most popular see if there is sth for mixed ethnic_group or atheist etc (so if we should have some other bucket for others relevant) - Katya
+  - candidacy, academic_degree, party
+    - [ ] if there should be sth for we don't know and didn't happend? - Katya
+- [ ] feed datasets with features name into BERT -Sofia
+- [ ] ughhhhhhhh train it and return probabilites ~Sofia
+- [ ] Collect results -Sofia
+- [ ] analize distribution of predicted classes
+- [ ] create webside - Wei
 
 ## Abstract
 While performing analysis of Quotebank data we found out that around 34% of quotations don't have assigned speakers to it (1.8 million out of 5.2 million in file quotes-2020.json). Our goal is to answer the following question: if we cannot determine the exact author of a quotation, what other information can we get from it?
