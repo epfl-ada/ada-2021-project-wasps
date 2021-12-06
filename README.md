@@ -1,17 +1,27 @@
 # Detect profile of the speaker based on deep learning
 ## TODO
-- split null guys not null guys
-- then split into [ID, quote, feature] train without null, test nulls
-- give it to Katya to analyese
-- train it ughhhh ~Sofia
+- [x] split null guys not null guys
+- [x] then split into [ID, quote, feature] train without null, test nulls
+- [ ] give it to Katya to analyese
+- [ ] train it ughhhh ~Sofia
 
 ## Larger TODO
-- dataloader to run big data - Pawel
-- refactor code - Sofia
-- change data encoding 
-- fight inbalance in classed - Wei
-- run it on the cluser -Wei
-- analize already parsed data - Katya
+- [x] dataloader to run big data - Pawel
+- [ ] refactor code - Sofia
+- [x] change data encoding 
+- [x] fight inbalance in classed - ~~Wei~~ Sofia
+- [ ] run it on the cluser -Wei
+- [ ] analize already parsed data - Katya
+
+## Next TODO
+- [ ] get column names and destributions of 10 most popular classes in each feature - Katya
+- [ ] create proper datasets with other classes
+- [ ] optional preprocessing to reduce size
+- [ ] feed datasets with features name into BERT
+- [ ] ughhhhhhhh train it and return probabilites ~Sofia
+- [ ] Collect results
+- [ ] analize distribution of predicted classes
+- [ ] create webside
 
 ## Abstract
 While performing analysis of Quotebank data we found out that around 34% of quotations don't have assigned speakers to it (1.8 million out of 5.2 million in file quotes-2020.json). Our goal is to answer the following question: if we cannot determine the exact author of a quotation, what other information can we get from it?
