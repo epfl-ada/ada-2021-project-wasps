@@ -17,6 +17,16 @@
 - [ ] get column names and destributions of 10 most popular classes in each feature - Katya
 - [ ] create proper datasets with other classes -Pawel
 - [ ] optional preprocessing to reduce size -Pawel
+- preprocess data
+  - date_of_birth
+    - [ ] plot distribution
+    - [ ] take 8 buckets in the middle one lower one upper
+  - nationality
+    - [ ] maybe by region (USA, middle east etc)?
+  - ethnic_group, occupation, religion
+    - [ ] take most popular see if there is sth for mixed ethnic_group or atheist etc (so if we should have some other bucket for others relevant)
+  - candidacy, academic_degree, party
+    - [ ] ther should be sth for we don't know and didn't happend
 - [ ] feed datasets with features name into BERT -Sofia
 - [ ] ughhhhhhhh train it and return probabilites ~Sofia
 - [ ] Collect results -Sofia
