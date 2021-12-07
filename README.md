@@ -27,6 +27,8 @@
     - [ ] take most popular see if there is sth for mixed ethnic_group or atheist etc (so if we should have some other bucket for others relevant) - Katya
   - candidacy, academic_degree, party
     - [ ] if there should be sth for we don't know and didn't happend? - Katya
+- [ ] deal with repetitions in people (severel wiki pages per person)
+- [ ] investigate repetitions in quotes (different people say the same quote)
 - [ ] feed datasets with features name into BERT -Sofia
 - [ ] ughhhhhhhh train it and return probabilites ~Sofia
 - [ ] Collect results -Sofia
