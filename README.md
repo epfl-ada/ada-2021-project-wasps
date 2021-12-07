@@ -25,7 +25,7 @@
     - [ ] maybe group by region (USA, middle east etc)? - Katya
   - ethnic_group, occupation, religion
     - [ ] take most popular see if there is sth for mixed ethnic_group or atheist etc (so if we should have some other bucket for others relevant) - Katya
-  - candidacy, academic_degree, party
+  - candidacy, academic_degree, party -- not predicting this, only analyzing
     - [ ] if there should be sth for we don't know and didn't happend? - Katya
 - [ ] deal with repetitions in people (severel wiki pages per person)
 - [ ] investigate repetitions in quotes (different people say the same quote)
