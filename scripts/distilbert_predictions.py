@@ -380,7 +380,7 @@ def main():
 	        plot_losses(loss_tr, loss_te, acc)
 	        # Saving model
 	        if len(loss_te) > 1:
-	            if loss_te[-1] < loss_te[-2]:
+	            if loss_te[-1] <= np.min(loss_te):
 	                print("Saving best checkpoint...")
 	                torch.save(model.state_dict(), SAVE_PATH)
 	        elif len(loss_te) == 1:
