@@ -146,7 +146,10 @@ def test(model, none_loader, classes, feature_name):
             outputs = outputs.cpu().detach().numpy().tolist()
             for output in outputs:
                 output = np.array(output)
-                inds = np.argsort(output)[-3:][::-1]
+                if feature_name == 'gender':
+                    inds = np.argmax(output)
+                else:
+                    inds = np.argsort(output)[-3:][::-1]
                 classes_ = classes[inds]
                 probs = output[inds]
                 feature = list(zip(classes_, probs))
@@ -272,11 +275,11 @@ def main():
 	print('Feature to be predicted:', feature_name)
 	if feature_name in ['gender']:
 	    num_classes = 2
-	elif feature_name in ['occupation', 'religion']:
+	elif feature_name in ['occupation', 'religion', 'ethnic_group']:
 	    num_classes = 10
 	elif feature_name in ['date_of_birth']:
 	    num_classes = 8
-	elif feature_name in ['nationality', 'ethnic_group']:
+	elif feature_name in ['nationality']:
 	    num_classes = 5
 	print('Number of classes:', num_classes)
 	
