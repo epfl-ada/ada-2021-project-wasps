@@ -18,7 +18,7 @@ _Sofia Blinova_: creation classification model, writing training, validation and
 
 _Ekaterina Trimbach_: creation most of the visualization, predicted labels and topic analization.
 
-_Wei Shi_: website creation, models training, write huge part of the report.
+_Wei Shi_: Result analysis on preliminary experiment, Website configuration, models training and records, write huge part of the report.
 
 _All together_: work on the final report.
 
