@@ -1,0 +1,14 @@
+numpy
+pandas
+os
+torch
+transformers==3.0.2
+matplotlib
+seaborn
+itertools
+sklearn
+IPython
+tqdm
+argparse
+pyarrow
+plotly
