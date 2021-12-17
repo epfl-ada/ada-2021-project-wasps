@@ -13,7 +13,10 @@ In that work we would like to extract additional information about known authors
 ## Contribution
 
 _Pawel Mlyniec_:
+
 _Sofia Blinova_:
+
 _Ekaterina Trimbach_:
+
 _Wei Shi_:
 
