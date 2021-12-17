@@ -12,11 +12,13 @@ In that work we would like to extract additional information about known authors
 
 ## Contribution
 
-_Pawel Mlyniec_:
+_Pawel Mlyniec_: collection data from wikipedia dumps, parsing all the data, sptilling the data into feature categoties, adapting data format for the usage.
 
-_Sofia Blinova_:
+_Sofia Blinova_: creation classification model, writing training, validation and prediction piplines, result analyzation.
 
-_Ekaterina Trimbach_:
+_Ekaterina Trimbach_: creation most of the visualization, predicted labels and topic analization.
 
-_Wei Shi_:
+_Wei Shi_: website creation, models training, write huge part of the report.
+
+_All together_: work on the final report.
 
