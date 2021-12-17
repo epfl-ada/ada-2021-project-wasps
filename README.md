@@ -8,7 +8,13 @@ In that work we would like to extract additional information about known authors
 
 ## Repository structure
 
+```data```: contains parsed data that is split by features.
 
+```figures```: contains plots that we are using for the README.
+
+```notebooks```: 
+
+```scripts```: contain python file with our classification model.
 
 ## Contribution
 
