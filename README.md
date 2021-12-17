@@ -11,7 +11,7 @@ In that work we would like to extract additional information about known authors
 
 ```notebooks/analysis```: Contains notebooks with data analysis. We have built a graph of the distribution of classes for the analyzed data. In addition, an analysis of the dependencies between classes and quote topics has been added to this notebook.
 
-```notebooks/parsing```: Contains notbooks for the data parsing and splitting data into train, validation and test sets.
+```notebooks/parsing```: Contains notebooks for the data parsing and splitting data into train, validation and test sets.
 
 ```notebooks/snippets```: Contains notebook with explanations how we worked with Parquet data type.
 
