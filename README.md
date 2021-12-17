@@ -12,7 +12,11 @@ In that work we would like to extract additional information about known authors
 
 ```figures```: contains plots that we are using for the README.
 
-```notebooks```: 
+```notebooks/analysis```: contains notebook with the initial features analisys and analysis of the predictions.
+
+```notebooks/parsing```: contains notbooks for the data parsing and splitting data into train, validation and test sets.
+
+```notebooks/snippets```: contains notebook with explanations how we worked with Parquet data type.
 
 ```scripts```: contain python file with our classification model.
 
