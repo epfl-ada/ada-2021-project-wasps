@@ -8,17 +8,17 @@ In that work we would like to extract additional information about known authors
 
 ## Repository structure
 
-```data```: contains parsed data that is split by features.
+```notebooks/analysis```: Contains notebooks with data analysis. We have built a graph of the distribution of classes for the analyzed data. In addition, an analysis of the dependencies between classes and quote topics has been added to this notebook.
 
-```figures```: contains plots that we are using for the README.
+```notebooks/parsing```: Contains notbooks for the data parsing and splitting data into train, validation and test sets.
 
-```notebooks/analysis```: contains notebook with the initial features analisys and analysis of the predictions.
+```notebooks/snippets```: Contains notebook with explanations how we worked with Parquet data type.
 
-```notebooks/parsing```: contains notbooks for the data parsing and splitting data into train, validation and test sets.
+```scripts```: Contain python file with our classification model.
 
-```notebooks/snippets```: contains notebook with explanations how we worked with Parquet data type.
+```data```: Contains analyzed data from wikipedia. The analyzed data is divided into several files depending on the investigated feature.
 
-```scripts```: contain python file with our classification model.
+```figures```: Contains plots that we are using for the README.
 
 ## Contribution
 
