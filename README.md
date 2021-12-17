@@ -1,41 +1,7 @@
 # Detect profile of the speaker based on deep learning
-## TODO
-- [x] split null guys not null guys
-- [x] then split into [ID, quote, feature] train without null, test nulls
-- [ ] give it to Katya to analyese
-- [ ] train it ughhhh ~Sofia
-
-## Larger TODO
-- [x] dataloader to run big data - Pawel
-- [ ] refactor code - Sofia
-- [x] change data encoding 
-- [x] fight inbalance in classed - ~~Wei~~ Sofia
-- [ ] run it on the cluser -Wei
-- [ ] analize already parsed data - Katya
-
-## Next TODO
-- [ ] get column names and destributions of 10 most popular classes in each feature - Katya
-- [ ] create proper datasets with other classes -Pawel
-- [ ] optional preprocessing to reduce size -Pawel
-- preprocess data
-  - date_of_birth
-    - [ ] plot distribution - Katya
-    - [ ] take, save 8 buckets in the middle one lower one upper - Katya
-  - nationality
-    - [ ] maybe group by region (USA, middle east etc)? - Katya
-  - ethnic_group, occupation, religion
-    - [ ] take most popular see if there is sth for mixed ethnic_group or atheist etc (so if we should have some other bucket for others relevant) - Katya
-  - candidacy, academic_degree, party -- not predicting this, only analyzing
-    - [ ] if there should be sth for we don't know and didn't happend? - Katya
-- [ ] deal with repetitions in people (severel wiki pages per person)
-- [ ] investigate repetitions in quotes (different people say the same quote)
-- [ ] feed datasets with features name into BERT -Sofia
-- [ ] ughhhhhhhh train it and return probabilites ~Sofia
-- [ ] Collect results -Sofia
-- [ ] analize distribution of predicted classes
-- [ ] create webside - Wei
 
 ## Abstract
+
 While performing analysis of Quotebank data we found out that around 34% of quotations don't have assigned speakers to it (1.8 million out of 5.2 million in file quotes-2020.json). Our goal is to answer the following question: if we cannot determine the exact author of a quotation, what other information can we get from it?
 
 In that work we would like to extract additional information about known authors parsing information from Wikipedia and use it to describe unknown authors thereby reducing their obscurity. Due to the fact that the work on data parsing is still in progress, we decided to build a pipeline for predictions of another magnitude, namely the topic of the quote. We chose this additional task because it is simpler for the first stage and it can be easily adapted for our main purposes.
