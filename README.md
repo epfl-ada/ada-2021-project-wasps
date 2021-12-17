@@ -16,7 +16,7 @@ In that work we would like to extract additional information about known authors
 
 ```scripts```: Contain python file with our classification model.
 
-```data```: Contains analyzed data from wikipedia. The analyzed data is divided into several files depending on the investigated feature.
+```data```: Contains  data parsed from Wikipedia. The analyzed data is divided into several files depending on the investigated feature.
 
 ```figures```: Contains plots that we are using for the README.
 
